@@ -76,8 +76,8 @@ modules:
       sha256: 7fb30a052b63e3ed02c9e43bd70fe1bf8189f2f3d702ab43b5b0726a2dbafccd
 - name: plausible
   buildsystem: meson
-    sources:
-    - type: git
-      url: https://github.com/cassidyjames/plausible.git
-      tag: 1.2.0
-      commit: 3fbb083b704dd64e9836e6ba9dec8129644f6462
+  sources:
+  - type: git
+    url: https://github.com/cassidyjames/plausible.git
+    tag: 1.2.0
+    commit: 3fbb083b704dd64e9836e6ba9dec8129644f6462
